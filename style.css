@@ -571,7 +571,7 @@ button:hover {
     transform: translateY(-100px);
 }
 
-.section-12 h1{
+.section-12 h1 {
     font-size: 60px;
     color: black;
     padding: 150px 20px;
@@ -584,7 +584,7 @@ button:hover {
     font-weight: 500;
 }
 
-.section-13{
+.section-13 {
     height: 600px;
     background-color: blue;
     background-image: url("https://www.twoleavestea.com/cdn/shop/files/1440.webp?v=1771593223&width=750.0");
@@ -593,10 +593,10 @@ button:hover {
     display: flex;
     align-items: center;
     padding: 30px;
-    overflow-x:hidden ;
+    overflow-x: hidden;
 }
 
-.text-box-part-13{
+.text-box-part-13 {
     height: 500px;
     width: 400px;
     background-color: #F26412;
@@ -608,40 +608,94 @@ button:hover {
     justify-content: space-between;
 }
 
-.text-box-part-13 h1{
+.text-box-part-13 h1 {
     font-family: rekless;
     font-size: 50px;
     line-height: 50px;
     color: white;
 }
 
-footer{
+footer {
     background-color: #A2C9FC;
+    padding: 20px;
 }
 
-.footer-top{
+.left-foot-1 {
+    gap: 10px;
+    display: flex;
+}
+
+.footer-top {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     height: 200px;
 }
 
-.footer-top input{
+.footer-top input {
     padding: 15px 90px 15px 15px;
     border-radius: 10px;
     border: none;
 }
 
-.right-foot-1{
+.right-foot-1 {
     align-items: center;
     justify-content: center;
     display: flex;
+
 }
 
-.right-foot-1 p{
+.right-foot-1 p {
     color: #2A2857;
     font-size: 40px;
 }
+
+.footer-bottom{
+    background-color: #2A2857;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 140px;
+}
+
+.footer-box-1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footer-box-1 h3{
+    color: white;
+    font-family: rekless;
+    font-size: 25px;
+}
+
+.footer-box-1 p{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.719);
+    font-family: "poppins", sans-serif;
+    height: 25px;
+    width: fit-content;
+}
+
+.text-foot-p{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-box-1 p:hover{
+    cursor: pointer;
+    border-bottom:1px solid white;
+    transition: 0.5s;
+}
+
+
+
+
+
 
 @media (max-width:1110px) {
     .left-nav .a1 {
@@ -762,31 +816,39 @@ footer{
     .right-inner-part-11 p {
         font-size: 14px;
     }
-    .section-12 h1{
+
+    .section-12 h1 {
         font-size: 30px;
         line-height: 30px;
         padding: 30px 30px;
     }
 
-    .footer-top{
+    .footer-top {
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
-    .left-foot-1{
+
+    .left-foot-1 {
         text-align: center;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         gap: 20px;
     }
-    .left-foot-1 button{
+
+    .left-foot-1 button {
         margin-top: 15px;
     }
-    .right-foot-1{
+
+    .right-foot-1 {
         margin-top: 15px;
     }
-    
+
+    .footer-bottom{
+        justify-content: flex-start;
+        gap: 70px;
+    }
 }
 
 @media (max-width:500px) {
