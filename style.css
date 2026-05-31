@@ -48,6 +48,14 @@ nav .left-nav {
     font-size: 20px;
 }
 
+.left-nav i{
+    font-size: 20px;
+    background-color: #A2C9FC;
+    border-radius: 50%;
+    border: 0.5px solid black;
+    margin-left: 5px;
+}
+
 .left-nav .a2 {
     display: none;
 }
@@ -692,10 +700,29 @@ footer {
     transition: 0.5s;
 }
 
+/* Chrome, Edge, Safari */
+::-webkit-scrollbar {
+    width: 6px; /* thin scrollbar */
+}
 
+::-webkit-scrollbar-track {
+    background: #111; /* dark track */
+}
 
+::-webkit-scrollbar-thumb {
+    background: #444; /* dark thumb */
+    border-radius: 10px;
+}
 
+::-webkit-scrollbar-thumb:hover {
+    background: #666;
+}
 
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #444 #111;
+}
 
 @media (max-width:1110px) {
     .left-nav .a1 {
@@ -704,6 +731,10 @@ footer {
 
     .right-nav .a1 {
         display: none;
+    }
+
+    .left-nav a{
+        background-color: none;
     }
 
     .left-nav .a2 {
