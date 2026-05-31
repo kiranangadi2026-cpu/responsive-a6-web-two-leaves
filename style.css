@@ -725,6 +725,11 @@ footer {
 }
 
 @media (max-width:1110px) {
+    .left-nav i{
+        background-color: transparent;
+        border: none;
+    }
+
     .left-nav .a1 {
         display: none;
     }
